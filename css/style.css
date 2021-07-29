@@ -1,17 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-/* Common Design */
+/*
+==========================================
+   Custom Design
+==========================================
+*/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-:active,
-:hover,
-:focus {
-  outline: 0 !important;
-  outline-offset: 0;
 }
 
 a,
@@ -46,7 +43,7 @@ body {
 }
 
 .wrapper {
-  padding-top: 8.25rem;
+  padding-top: 6.25rem;
   padding-bottom: 4.25rem;
 }
 
@@ -98,7 +95,9 @@ p {
 .feature-area .gray {
   filter: grayscale(100%);
 }
-
+.feature-area .best-bike {
+  color: var(--btn-color);
+}
 /*
 ==========================================
    Client area Design
@@ -111,7 +110,7 @@ p {
 }
 /*
 ==========================================
-   Footer area Design
+   FAQ area Design
 ==========================================
 */
 .accordion-header button {
@@ -120,6 +119,41 @@ p {
 .accordion-button:not(.collapsed) {
   color: var(--black-color);
   background-color: var(--white-color);
+}
+
+/*
+==========================================
+   Contact area Design
+==========================================
+*/
+
+.contact .info i {
+  font-size: 20px;
+  color: var(--btn-color);
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #eef7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #45505b;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #728394;
 }
 
 /*
