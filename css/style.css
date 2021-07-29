@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--btn-color) !important;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/*===== Variable Define =====*/
+:root {
+  --btn-color: #e76f51;
+  --white-color: #ffff;
+  --text-color: #6c6c6c;
+  --text-header: #e0e0e0;
+  --black-color: #000;
+  --primary-font: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 100%;
+  font-weight: 400;
+}
+
+.wrapper {
+  padding-top: 8.25rem;
+  padding-bottom: 8.25rem;
+}
+
+.main-btn {
+  display: inline-block;
+  padding: 0.625rem 1.875rem;
+  line-height: 1.5625rem;
+  background-color: var(--btn-color);
+  /* border: 0.1875rem solid var(--primary-color); */
+  color: var(--white-color);
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+h1 {
+  color: var(--black-color);
+  font-size: 3rem;
+}
+p {
+  color: var(--text-color);
+}
+
+/*
+==========================================
+   header area Design
+==========================================
+*/
+.header-area {
+  background: #264653;
+}
+.header-area h1 {
+  color: var(--white-color);
+}
+.header-area p {
+  color: var(--text-header);
+}
+.nav-link a {
+  color: var(--white-color);
+  letter-spacing: 1px;
+}
+
+/*
+==========================================
+   feature area Design
+==========================================
+*/
+.feature-area .gray {
+  filter: grayscale(100%);
+}
+
+/*
+==========================================
+   Client area Design
+==========================================
+*/
+.inner-container {
+  padding: 0 4rem;
+}
+
+.fa-star {
+  color: #e77c40;
+  padding: 0.188rem;
+}
+
+@media (max-width: 767) {
+  .inner-container {
+    padding: 0;
+  }
+}
+
+/*
+==========================================
+   Footer area Design
+==========================================
+*/
+.footer-area {
+  background: #0b0d17;
+}
