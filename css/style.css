@@ -97,6 +97,15 @@ p {
 }
 .feature-area .best-bike {
   color: var(--btn-color);
+  display: inline-block;
+}
+
+.feature-area .best-bike::after {
+  content: "";
+  display: block;
+  background-color: var(--btn-color);
+  height: 2px;
+  width: 100%;
 }
 /*
 ==========================================
