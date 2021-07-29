@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+  .wrapper {
+    padding-top: 2.25rem;
+    padding-bottom: 4.25rem;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+}
